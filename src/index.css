@@ -1,13 +1,85 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.heading {
+  text-align: center;
+  background-color: #b8f7da;
+}
+.content {
+  justify-content: space-between;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.formcontent {
+  padding: 30px 500px;
+  background-color: #fed092;
+}
+.content1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+.buttons1 {
+  padding: 5px;
+  border: 1px solid black;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.container {
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.formcolumn {
+  width: 50%;
+  align-self: center;
+  font-weight: bold;
+  font-size: large;
+}
+.aa {
+  padding-left: 15px;
+}
+table {
+  background-color: aqua;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+#dataTable {
+  padding: 20px 10px;
+}
+.filter-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background-color: #1ee95745;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  width: 100%;
+  padding-left: 500px;
+}
+.searchfilter {
+  padding: 10px 10px;
+  display: flex;
+  align-self: baseline;
+}
+.top {
+  text-align: center;
+  background-color: darkseagreen;
+
 }
